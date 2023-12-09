@@ -9,6 +9,7 @@ const routes = [
   { path: '/client', component: () => import('../views/admin_client')},
   { path: '/warranty', component: () => import('../views/admin_warranty')},
   { path: '/settings', component: () => import('../views/admin_settings')},
+  { path: '/shop', component: () => import('../views/client_shop')},
 ]
 
 const router = createRouter({

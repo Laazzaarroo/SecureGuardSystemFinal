@@ -1,7 +1,7 @@
 <template>
   <router-view></router-view>
   <nav>
-    <v-navigation-drawer app class="bg-error" expand-on-hover rail :permanent="true">
+    <v-navigation-drawer app class="bg-cyan-darken-4" expand-on-hover rail :permanent="true">
       <v-list>
         <v-list-item
           prepend-avatar="https://randomuser.me/api/portraits/women/85.jpg"
@@ -13,7 +13,7 @@
       <v-list density="default">
 
         <router-link to="/dashboard" class="custom-color"> 
-            <v-list-item prepend-icon="mdi-monitor-dashboard" title="Dashboard" value="dashboard" color="white"></v-list-item>
+            <v-list-item prepend-icon="mdi-monitor-dashboard" title="Dashboard" value="dashboard" class="text-cyan-lighten-5"></v-list-item>
         </router-link>
 
         <router-link to="/products" class="custom-color">
