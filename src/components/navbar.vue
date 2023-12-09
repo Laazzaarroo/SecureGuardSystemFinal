@@ -29,7 +29,7 @@
         </router-link>
 
         <router-link to="/warranty" class="custom-color">
-        <v-list-item prepend-icon="mdi-list-status" title="Warranty Status" value="status"></v-list-item>
+        <v-list-item prepend-icon="mdi-file-clock" title="Warranty Status" value="status"></v-list-item>
         </router-link>
 
       </v-list>
